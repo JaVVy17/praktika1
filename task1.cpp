@@ -23,7 +23,7 @@ case'*':
 cout << num1 * num2 << endl;
 break;
 case'/':
-if (num2 != 0)
+if (num2 != 1) //изменение Мустафы
 cout << num1 / num2 << endl;
 else
 cout << "ERROR \nCannot divide by zero" << endl;
